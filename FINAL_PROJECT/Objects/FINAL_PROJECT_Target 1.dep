@@ -1,0 +1,15 @@
+Dependencies for Project 'FINAL_PROJECT', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Final_project.c)(0x5DE1E82D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM4_FP-o .\objects\final_project.o --omf_browse .\objects\final_project.crf --depend .\objects\final_project.d)
+I (C:\Keil_v5\ARM\ARMCC\include\tm4c123gh6pm.h)(0x5D893E8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC30B2)
+F (.\interrupts.s)(0x5DE1B11F)(--cpu Cortex-M4.fp --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM4\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "ARMCM4_FP SETA 1"--list .\listings\interrupts.lst --xref -o .\objects\interrupts.o --depend .\objects\interrupts.d)
+F (RTE\Device\ARMCM4_FP\startup_ARMCM4.s)(0x5DE1B1C9)(--cpu Cortex-M4.fp --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM4\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "ARMCM4_FP SETA 1"--list .\listings\startup_armcm4.lst --xref -o .\objects\startup_armcm4.o --depend .\objects\startup_armcm4.d)
+F (RTE\Device\ARMCM4_FP\system_ARMCM4.c)(0x5C8ADB4E)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM4\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM4_FP-o .\objects\system_armcm4.o --omf_browse .\objects\system_armcm4.crf --depend .\objects\system_armcm4.d)
+I (C:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM4\Include\ARMCM4_FP.h)(0x5BBE224A)
+I (C:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9004A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC30B2)
+I (C:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97CB14)
+I (C:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9004A4)
+I (C:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9004A4)
+I (C:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9004A4)
+I (C:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM4\Include\system_ARMCM4.h)(0x5BBE224A)

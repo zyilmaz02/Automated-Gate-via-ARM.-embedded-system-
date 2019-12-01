@@ -1,0 +1,62 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             |.text|, CODE, READONLY
+    2 00000000                 EXPORT           DisableInterrupts
+    3 00000000                 EXPORT           EnableInterrupts
+    4 00000000         ;*********** DisableInterrupts *************** 
+    5 00000000         
+    6 00000000 B672    DisableInterrupts
+                               CPSID            I           ;set I=1
+    7 00000002 4770            BX               LR
+    8 00000004         
+    9 00000004         ;*********** EnableInterrupts ***************
+   10 00000004         
+   11 00000004 B662    EnableInterrupts
+                               CPSIE            I           ;set I=0
+   12 00000006         
+   13 00000006 4770            BX               LR
+   14 00000008         
+   15 00000008                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=.\objects\interrupts.d -o.\objects\interrupts.o -I.\RTE\_Target
+_1 -IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Includ
+e -IC:\Users\zyilmaz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM4\
+Include --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 528" --
+predefine="_RTE_ SETA 1" --predefine="ARMCM4_FP SETA 1" --list=.\listings\inter
+rupts.lst interrupts.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 1 in file interrupts.s
+   Uses
+      None
+Comment: .text unused
+DisableInterrupts 00000000
+
+Symbol: DisableInterrupts
+   Definitions
+      At line 6 in file interrupts.s
+   Uses
+      At line 2 in file interrupts.s
+Comment: DisableInterrupts used once
+EnableInterrupts 00000004
+
+Symbol: EnableInterrupts
+   Definitions
+      At line 11 in file interrupts.s
+   Uses
+      At line 3 in file interrupts.s
+Comment: EnableInterrupts used once
+3 symbols
+338 symbols in table
